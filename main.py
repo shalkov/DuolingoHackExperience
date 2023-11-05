@@ -23,4 +23,4 @@ if __name__ == '__main__':
         thread = threading.Thread(target=my_timer, name="Thread " + str(x), args=(x,), daemon=True)
         thread.start()
 
-    input('Привет, это скрипт для накрутки рейтинга в Dualingo')
+    input('Привет, это скрипт для накрутки рейтинга в Duolingo')
